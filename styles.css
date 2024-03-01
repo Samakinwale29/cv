@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.top-container{
+    height: 80px;
+    width: 100%;
+    /*border: 2px solid red;)*/
+    padding:5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.top-container img{
+    height: 50px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.navbar{
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    top: 60px;   
+}
+.navbar a{
+    margin: 10px;
+    text-decoration: none;
+} 
+.navbar a:hover{
+    color: black;
+}
+.middle-container{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(180deg,
+                        rgba(0,0,0,0.3) 0%,
+                        rgba(0,0,0,0.8) 100%),
+                        url("cover2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.welcomeNote{
+    padding-top: 150px;
+    padding-left: 150px;
+    color: white;
+    opacity: 0.9;
+}
+.welcomeNote h2{
+    font-size: 20px;
+}
+.welcomebutton{
+    margin: 40px 0 auto 150px;
+}
+.welcomebutton a{
+    text-decoration: none;
+    margin: 0 10px 0 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 129, 34);
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background .2s,
+                color .5s;
+}
+.welcomebutton a:hover{
+    background-color: #fff;
+    color: red;
+}
+.message{
+    font-size: 20px;
+    font-weight: 100;
+}
